@@ -16,7 +16,7 @@ Why should we choose this approach?
 - Storing data on client-side saves server's memory.
 
 Why should not we choose this approach?
-- Storing important information on client-side creates huge security vulnerability.
+- Storing important information on client-side creates a huge security vulnerability.
 
 **As you guess, security is much more important than the others these days.**
 
