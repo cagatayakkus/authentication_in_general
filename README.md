@@ -5,7 +5,13 @@ This project aims to build my general knowledge about authentication solutions b
 
 ## Approaches
 - [Cookie Based Solution](https://github.com/cagatayakkus/authentication_in_general/tree/main/0_cookie_based_authentication)
-    - This approach sets a cookie, which has user information, on client side when users enter the system. Just because of this behavior, this approach is known as the least secure solution.
+    - This approach sets a cookie, which has user information, on client-side when users enter the system. Just because of this behavior, this approach is known as the least secure solution.
+- Session Based Solution
+    - This approach sets a session, which has user information, on server-side when users enter the system. This solution is better than cookie-based one but not the best.
+    - This approach can be implemented in two ways.
+    - [Store Session in Memory](https://github.com/cagatayakkus/authentication_in_general/tree/main/1_session_based_authentication/0_store_in_memory)
+
+
 
 ## Installation
 First, clone the project.
