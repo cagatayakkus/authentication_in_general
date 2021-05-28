@@ -2,7 +2,7 @@
 // USER CREDENTIALS
 {
 'username': 'johndoe',
-'password' = 'Johndoe98*'
+'password':  'Johndoe98*'
 }
 */
 

@@ -27,7 +27,8 @@ Why should not we choose this approach?
 
 ## Files
 - db/user/johndoe.js &rarr; Contains dummy user credentials
-    - You can use this credentials while sending a post request to the /login route. {'username': 'johndoe','password' = 'Johndoe98*'}
+    - You can use this credentials while sending a post request to the /login route.\
+    {'username': 'johndoe','password': 'Johndoe98*'}
 - utils/utils.js &rarr; Contains utility functions for encryption and decrpytion data
 - index.js &rarr; Contains required code to set up a express server
 - middlewares.js &rarr; Contains a middleware that authenticate the request.
