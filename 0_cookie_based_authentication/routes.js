@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { decryptPassword } = require("./utils/utils");
+const { validatePassword } = require("./utils/utils");
 const user = require("./db/user/johndoe");
 const { auth } = require("./middlewares");
 
@@ -13,7 +13,7 @@ router.get("/", (req, res) => {
 router.post("/login", (req, res) => {
   const { username, password } = req.body;
   if (
-    decryptPassword(password, user.hash, user.salt) &&
+    validatePassword(password, user.hash, user.salt) &&
     user.username === username
   ) {
     res.cookie("username", user.username);
