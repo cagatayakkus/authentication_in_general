@@ -1,15 +1,7 @@
-# Authentication by setting up a session
-
-**Setting up a session is a way of storing data on server-side.**
-
-In this approach, a session, which has user's information, is set when users enter the system.
-
-## Session
-
-Session can be considered as a cookie stored on server-side.
+# Storing Sessions in Memory
+**In this approach, sessions are stored in server's memory.**
 
 ## Ins and Outs
-
 
 Why should we choose this approach?
 
