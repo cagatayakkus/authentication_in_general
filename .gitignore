@@ -1,2 +1,4 @@
 0_cookie_based_authentication/node_modules/
 1_session_based_authentication/0_store_in_memory/node_modules/
+1_session_based_authentication/1_store_in_database/node_modules/
+1_session_based_authentication/1_store_in_database/.env
